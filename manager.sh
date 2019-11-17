@@ -151,7 +151,7 @@ echo -e "\033[1;33m- - ->>octavio\033[01;34mT L A L O K C"
 echo -e "\033[1;33m- - ->>editado por tlalokc\033[01;34m Email tlalokc1@gmail.com"
 sleep 1
 cd
-rm -fr sslmanager
+rm -fr sslmanager manager.sh
 ls
 # Built application files
 *.apk

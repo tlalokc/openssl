@@ -1,4 +1,4 @@
-﻿#/bin/bash
+#/bin/bash
 
 echo -e "\033[1;33m- - - - -> \033[01;34mScript Configurar o servidor para usar SSL/TLS Stunnel4"
 echo -e "\033[1;33m #################"
@@ -90,7 +90,7 @@ echo "client = no " >> /etc/stunnel/stunnel.conf
 echo "[ssh] " >> /etc/stunnel/stunnel.conf
 echo "cert = /etc/stunnel/stunnel.pem " >> /etc/stunnel/stunnel.conf
 echo "accept = $port " >> /etc/stunnel/stunnel.conf
-echo "connect = 127.0.0.1:22" >> /etc/stunnel/stunnel.conf
+echo "connect = 206.189.182.104:22" >> /etc/stunnel/stunnel.conf
 
 echo -e "\033[1;33m ######################################"
 echo -e "\033[1;31mconfigurar stunnel4"
@@ -151,7 +151,8 @@ echo -e "\033[1;33m- - ->>octavio\033[01;34mT L A L O K C"
 echo -e "\033[1;33m- - ->>editado por tlalokc\033[01;34m Email tlalokc1@gmail.com"
 sleep 1
 cd
-rm -fr sslmanager manager.sh
+rm -fr sslmanager
+rm -fr manager.sh
 ls
 # Built application files
 *.apk
